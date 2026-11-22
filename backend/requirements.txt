@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+opencv-python-headless
+numpy
+Pillow
+PyJWT
+
+# PostgreSQL / Neon
+psycopg2-binary
+alembic
+python-dotenv
+
+# AI / Computer Vision / ANPR Pipeline
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+easyocr>=1.7.0
+pytesseract>=0.3.10
+scipy
+scikit-image
